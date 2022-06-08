@@ -6,7 +6,7 @@ const CardWeather = ({weather}) => {
   const toggleButton = () => setIsBoolean(!isBoolean) 
   return (
     <div className='Card'>
-      <h2>{weather?.name}</h2>
+      <h2>{weather?.name} , {weather?.country}</h2>
       <img 
         src={weather && `http://openweathermap.org/img/wn/${weather.weather[0].icon}@4x.png`} 
         alt="icon weather condition" 
