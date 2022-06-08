@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App-2 {
+  background-image: url(https://wallpaperstock.net/campo-bajo-cielo-despejado%2C-naturaleza.-wallpapers_56463_1920x1200.jpg);
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card {
+  background-color: #0081d794;
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 20px;
+}
